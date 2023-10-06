@@ -1,7 +1,7 @@
 *
 {
     box-sizing: border-box;
-    font-family: 'Arya', monospace;
+    font-family: 'fira code', monospace;
     /* margin: 0; */
     padding: 0;
 }
@@ -9,6 +9,7 @@
 body
 {
     background-color: blueviolet;
+    font-size: 14px;
 }
 
 li
@@ -17,13 +18,14 @@ list-style: none;
 background-color: beige;
 width: 80%;
 margin-bottom: 1rem;
-padding: 0.8rem;
+padding: 0.6rem;
 }
 
 label
 {
     text-transform: capitalize;
     font-size: 14px;
+    color: black;
 }
 
 
