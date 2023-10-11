@@ -15,7 +15,8 @@ body
 li
 {
 list-style: none;
-background-color: beige;
+background-color:#F5F5F5;
+border-radius: 5px;
 width: 80%;
 margin-bottom: 1rem;
 padding: 0.6rem;
@@ -23,6 +24,7 @@ display: flex;
 gap: 4px;
 align-items: center;
 }
+
 
 label
 {
