@@ -19,6 +19,9 @@ background-color: beige;
 width: 80%;
 margin-bottom: 1rem;
 padding: 0.6rem;
+display: flex;
+gap: 4px;
+align-items: center;
 }
 
 label
@@ -37,7 +40,7 @@ label
     padding: 2rem;
 }
 
-#submit
+#submit-btn
 {
     border: none;
     outline: none;
@@ -47,5 +50,16 @@ label
     letter-spacing: 1px;
     text-transform: capitalize;
     border-radius: 4px;
+}
 
+#reload
+{
+    border: none;
+    outline: none;
+    padding: 0.6rem 0.6rem;
+    background-color: blueviolet;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    border-radius: 4px;  
 }
