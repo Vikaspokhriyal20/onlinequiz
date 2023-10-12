@@ -1,7 +1,7 @@
 
 const quizData = [
     {
-        question: 'Choose the correct HTML element to define important text',
+        question: 'Choose the correct HTML element to define important text.',
         options: [
             '<b>',
             '<i>',
@@ -12,7 +12,7 @@ const quizData = [
 
     },
     {
-        question: 'How can you make a numbered list',
+        question: 'How can you make a numbered list.',
         options: [
             '<dl>',
             '<ol>',
@@ -23,7 +23,7 @@ const quizData = [
 
     },
     {
-        question: 'How can you make a bulleted list',
+        question: 'How can you make a bulleted list.',
         options: [
             '<ul>',
             '<dl>',
@@ -34,9 +34,9 @@ const quizData = [
 
     },
     {
-        question: 'Which HTML element defined the title of a document',
+        question: 'Which HTML element defined the title of a document.',
         options: [
-            '<mete>',
+            '<meta>',
             '<body>',
             '<link>',
             '<title>',
@@ -45,7 +45,7 @@ const quizData = [
 
     },
     {
-        question: 'Which input type defines a slider control',
+        question: 'Which input type defines a slider control.',
         options: [
           
             '<range>',
@@ -110,6 +110,7 @@ submitBtn.addEventListener('click', () => {
         <h3>Your score 🏆 ${score}/${quizData.length}</h3>
         <p><code>Congratulations for complete the quiz 🎉🎊</code></p>
         <button id='reload' onclick='location.reload()'>Reload</button>
+        <div class='js'><strong>JS</strong></div>
         `
     }
         
